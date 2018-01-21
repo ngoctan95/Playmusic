@@ -13,6 +13,7 @@
 		270CAC2A201510480005DA7F /* PlayMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 270CAC28201510480005DA7F /* PlayMusic.xcdatamodeld */; };
 		270CAC2C201510480005DA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270CAC2B201510480005DA7F /* Assets.xcassets */; };
 		270CAC2F201510480005DA7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270CAC2D201510480005DA7F /* LaunchScreen.storyboard */; };
+		270CAC4020151B750005DA7F /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 270CAC3F20151B750005DA7F /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,14 @@
 		270CAC2B201510480005DA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		270CAC2E201510480005DA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		270CAC30201510480005DA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270CAC37201510CD0005DA7F /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		270CAC38201510CD0005DA7F /* miniVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniVolume.png; sourceTree = "<group>"; };
+		270CAC39201510CD0005DA7F /* maxVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxVolume.png; sourceTree = "<group>"; };
+		270CAC3A201510CE0005DA7F /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		270CAC3B201510CE0005DA7F /* duration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration.png; sourceTree = "<group>"; };
+		270CAC3D201510CE0005DA7F /* thumbHightLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbHightLight.png; sourceTree = "<group>"; };
+		270CAC3E201510CF0005DA7F /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		270CAC3F20151B750005DA7F /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +49,7 @@
 		270CAC15201510480005DA7F = {
 			isa = PBXGroup;
 			children = (
+				270CAC3F20151B750005DA7F /* music.mp3 */,
 				270CAC20201510480005DA7F /* PlayMusic */,
 				270CAC1F201510480005DA7F /* Products */,
 			);
@@ -56,6 +66,7 @@
 		270CAC20201510480005DA7F /* PlayMusic */ = {
 			isa = PBXGroup;
 			children = (
+				270CAC36201510BD0005DA7F /* Resources */,
 				270CAC21201510480005DA7F /* AppDelegate.swift */,
 				270CAC23201510480005DA7F /* ViewController.swift */,
 				270CAC25201510480005DA7F /* Main.storyboard */,
@@ -65,6 +76,20 @@
 				270CAC28201510480005DA7F /* PlayMusic.xcdatamodeld */,
 			);
 			path = PlayMusic;
+			sourceTree = "<group>";
+		};
+		270CAC36201510BD0005DA7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				270CAC3B201510CE0005DA7F /* duration.png */,
+				270CAC39201510CD0005DA7F /* maxVolume.png */,
+				270CAC38201510CD0005DA7F /* miniVolume.png */,
+				270CAC3A201510CE0005DA7F /* music.mp3 */,
+				270CAC37201510CD0005DA7F /* pause.png */,
+				270CAC3E201510CF0005DA7F /* thumb.png */,
+				270CAC3D201510CE0005DA7F /* thumbHightLight.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270CAC4020151B750005DA7F /* music.mp3 in Resources */,
 				270CAC2F201510480005DA7F /* LaunchScreen.storyboard in Resources */,
 				270CAC2C201510480005DA7F /* Assets.xcassets in Resources */,
 				270CAC27201510480005DA7F /* Main.storyboard in Resources */,
